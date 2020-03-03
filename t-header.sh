@@ -31,7 +31,7 @@ echo "";
 apt update -y &> /dev/null;
 apt install figlet pv ncurses-utils binutils coreutils wget git zsh termux-api procps gawk -y &> /dev/null;
 termux-wake-lock;
-if [ -e $PREFIX/share/figlet/Remo773.flf ]; then
+if [ -e $PREFIX/share/figlet/sanan9743.flf ]; then
 	echo -e "\e[1;34m[*] \033[32msanan9743.flf figlet font is present\033[0m";
 	sleep 4
 else
@@ -132,7 +132,7 @@ clear;
 echo -e "\033[31m$(figlet -f Remo773 "T- Header")\e[0m"
 echo -e "\e[1;32m
 +----------------------------------*/
-Remo773 : (\e[33m12.7.2018\e[32m)
+sanan9743 : (\e[33m12.7.2018\e[32m)
 
 1. Oh-my-zsh
 2. Zsh-syntax-highlight (\e[33mplugins\e[01;32m)
@@ -216,7 +216,7 @@ done
 
 
 
-	TERMUX-THEME
+	THEADER
 	
 	
 else
