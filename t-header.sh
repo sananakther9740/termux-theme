@@ -106,7 +106,7 @@ fi
 	cd $HOME/T-Header
 	fi
 	
-	wget https://raw.githubusercontent.com/remo7777/REMO773/master/t-head.txt &> /dev/null ;
+	wget https://raw.githubusercontent.com/sananakther9740/sanan9743/master/t-head.txt &> /dev/null ;
 
 	sleep 3
 	sed -i '/^TNAME=/d' $HOME/.zshrc
@@ -116,10 +116,10 @@ fi
 	rm t-head.txt
 	rm $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
 	if [ -e $PWD/.remo773.zsh-theme ]; then
-	sed -e "s/\Remo773/$PROC/g" .remo773.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+	sed -e "s/\sanan9743/$PROC/g" .sanan9743.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
 else
-wget https://raw.githubusercontent.com/remo7777/T-Header/master/.remo773.zsh-theme &> /dev/null
-sed -e "s/\Remo773/$PROC/g" .remo773.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+wget https://raw.githubusercontent.com/sananakther9740/termux-theme/master/.sanan9743.zsh-theme &> /dev/null
+sed -e "s/\sanan9743/$PROC/g" .sanan9743.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
 fi
 source ~/.zshrc
 else
@@ -216,7 +216,7 @@ done
 
 
 
-	THEADER
+	TERMUX-THEME
 	
 	
 else
