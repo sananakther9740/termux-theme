@@ -32,20 +32,20 @@ apt update -y &> /dev/null;
 apt install figlet pv ncurses-utils binutils coreutils wget git zsh termux-api procps gawk -y &> /dev/null;
 termux-wake-lock;
 if [ -e $PREFIX/share/figlet/Remo773.flf ]; then
-	echo -e "\e[1;34m[*] \033[32mRemo773.flf figlet font is present\033[0m";
+	echo -e "\e[1;34m[*] \033[32msanan9743.flf figlet font is present\033[0m";
 	sleep 4
 else
-wget https://raw.githubusercontent.com/remo7777/REMO773/master/Remo773.flf &> /dev/null;
+wget https://raw.githubusercontent.com/sananakther9740/sanan9743/master/sanan9743.flf &> /dev/null;
 sleep 3
-cat Remo773.flf >> $PREFIX/share/figlet/Remo773.flf
+cat sanan9743.flf >> $PREFIX/share/figlet/sanan9743.flf
 sleep 3
-rm Remo773.fif
+rm sanan9743.fif
 fi
 THEADER () 
 {
 clear;
 echo -e "\033[01;32m
-Remo773 (2018)
+sanan9743 (2020)
 		
 	menu
 +---------------------------*/
@@ -68,7 +68,7 @@ if [ ${#PROC} -gt 8 ]; then
 	sleep 4
 	clear
 echo -e "\033[01;32m
-Remo773 (2018)
+sanan9743 (2020)
 
 	menu
 +---------------------------*/
@@ -85,10 +85,10 @@ fi
 done
 clear
 TNAME="$PROC";
-echo -e "\033[32m$(figlet -f Remo773.flf "$TNAME")\033[0m";
+echo -e "\033[32m$(figlet -f sanan9740.flf "$TNAME")\033[0m";
 echo "";
 echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
-echo -e '\033[1;43;30m### SUBSCRIBE MY YOUTUBE CHANNEL ### \033[0m';
+echo -e '\033[1;43;30m### xxxxxxxxxxxxxx ### \033[0m';
 echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
 echo "";
 echo -e "\e[1;34m┌─[\e[1;32m$PROC\e[1;33m@\e[36mtermux\e[1;34m]\e[0m-\e[1;34m[\e[33m$(date +'%d %a %b')\e[1;34m]\e[0m-\e[1;34m[\e[33m$(date +'%l:%M %p')\e[1;34m]
@@ -106,7 +106,7 @@ fi
 	cd $HOME/T-Header
 	fi
 	
-	wget https://raw.githubusercontent.com/remo7777/REMO773/master/t-head.txt &> /dev/null ;
+	wget https://raw.githubusercontent.com/sananakther9740/sanan9743/master/t-head.txt &> /dev/null ;
 
 	sleep 3
 	sed -i '/^TNAME=/d' $HOME/.zshrc
@@ -116,10 +116,10 @@ fi
 	rm t-head.txt
 	rm $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
 	if [ -e $PWD/.remo773.zsh-theme ]; then
-	sed -e "s/\Remo773/$PROC/g" .remo773.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+	sed -e "s/\sanan9743/$PROC/g" .sanan9743.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
 else
-wget https://raw.githubusercontent.com/remo7777/T-Header/master/.remo773.zsh-theme &> /dev/null
-sed -e "s/\Remo773/$PROC/g" .remo773.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+wget https://raw.githubusercontent.com/sananakther9740/termux-theme/master/.sanan9743.zsh-theme &> /dev/null
+sed -e "s/\sanan9743/$PROC/g" .sanan9743.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
 fi
 source ~/.zshrc
 else
@@ -216,7 +216,7 @@ done
 
 
 
-	THEADER
+	TERMUX-THEME
 	
 	
 else
